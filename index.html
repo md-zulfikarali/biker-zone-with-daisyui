@@ -58,7 +58,7 @@
                     </div>
                     <a class="btn btn-ghost text-xl lg:text-4xl">Biker Zone</a>
                 </div>
-                <div class="navbar-center hidden text-base lg:flex">
+                <div class="navbar-end hidden text-base lg:flex">
                     <ul class="menu menu-horizontal px-1">
                         <li><a>Home</a></li>
                         <li><a>Shop</a></li>
@@ -99,7 +99,7 @@
                 </div>
             </div>
             <!-- slider 2 -->
-            <div id="slide2" class="carousel-item relative w-full">
+            <div id="slide2" class="carousel-item relative w-full bg-bike-primary-bg">
                 <div class="flex flex-col lg:flex-row gap-20 lg:p-24">
                     <div class="space-y-7 flex-1">
                         <h2 class="text-2xl lg:text-6xl font-bold">
@@ -124,7 +124,7 @@
                 </div>
             </div>
             <!-- slider 3 -->
-            <div id="slide3" class="carousel-item relative w-full">
+            <div id="slide3" class="carousel-item relative w-full bg-bike-primary-bg">
                 <div class="flex flex-col lg:flex-row gap-20 lg:p-24">
                     <div class="space-y-7 flex-1">
                         <h2 class="text-2xl lg:text-6xl font-bold">
@@ -149,7 +149,7 @@
                 </div>
             </div>
             <!-- slider 4 -->
-            <div id="slide4" class="carousel-item relative w-full">
+            <div id="slide4" class="carousel-item relative w-full bg-bike-primary-bg">
                 <div class="flex flex-col lg:flex-row gap-20 lg:p-24">
                     <div class="space-y-7 flex-1">
                         <h2 class="text-2xl lg:text-6xl font-bold">
@@ -177,8 +177,14 @@
     </header>
     <main class="md:container md:mx-auto">
         <!-- featured bike -->
-        <section>
-
+        <section class="mt-10">
+            <h2 class="text-4xl font-bold text-center">Featured Bikes In This Year</h2>
+            <p class="text-center text-[#E76F51] pt-2">Best bike collection</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10 pl-10 gap-20">
+                <div><img src="/images/others/feature-bike.png" alt=""></div>
+                <div><img src="/images/others/feature-bike.png" alt=""></div>
+                <div><img src="/images/others/feature-bike.png" alt=""></div>
+            </div>
         </section>
         <!-- latest bike -->
         <section class="my-24">
@@ -190,39 +196,113 @@
                 <div class="card bg-base-100 shadow-xl">
                     <figure><img src="/images/others/latest1.png" alt="Ducati" /></figure>
                     <div class="card-body">
-                      <h2 class="card-title text-3xl">Ducati XDIAVEL S-73</h2>
-                      <p>Buy this bike now. If you buy it now, you will get discount from the bike company.</p>
-                      <div class="card-actions">
-                        <button class="btn bg-bike-primary text-white">Purchase</button>
-                      </div>
+                        <h2 class="card-title text-3xl">Ducati XDIAVEL S-73</h2>
+                        <p>Buy this bike now. If you buy it now, you will get discount from the bike company.</p>
+                        <div class="card-actions">
+                            <button class="btn bg-bike-primary text-white">Purchase</button>
+                        </div>
                     </div>
-                  </div>
+                </div>
                 <!-- second bike -->
                 <div class="card bg-base-100 shadow-xl">
                     <figure><img src="/images/others/latest2.png" alt="motorcycle" /></figure>
                     <div class="card-body">
-                      <h2 class="card-title text-3xl">Motorcycles & Scooters</h2>
-                      <p>Buy this bike now. If you buy it now, you will get discount from the bike company.</p>
-                      <div class="card-actions">
-                        <button class="btn bg-bike-primary text-white">Purchase</button>
-                      </div>
+                        <h2 class="card-title text-3xl">Motorcycles & Scooters</h2>
+                        <p>Buy this bike now. If you buy it now, you will get discount from the bike company.</p>
+                        <div class="card-actions">
+                            <button class="btn bg-bike-primary text-white">Purchase</button>
+                        </div>
                     </div>
-                  </div>
+                </div>
                 <!-- third bike -->
                 <div class="card bg-base-100 shadow-xl">
                     <figure><img src="/images/others/latest3.png" alt="honda" /></figure>
                     <div class="card-body">
-                      <h2 class="card-title text-3xl">2021 Honda CBR500R</h2>
-                      <p>Buy this bike now. If you buy it now, you will get discount from the bike company.</p>
-                      <div class="card-actions">
-                        <button class="btn bg-bike-primary text-white">Purchase</button>
-                      </div>
+                        <h2 class="card-title text-3xl">2021 Honda CBR500R</h2>
+                        <p>Buy this bike now. If you buy it now, you will get discount from the bike company.</p>
+                        <div class="card-actions">
+                            <button class="btn bg-bike-primary text-white">Purchase</button>
+                        </div>
                     </div>
-                  </div>
+                </div>
             </div>
-            
 
 
+
+        </section>
+        <!-- Happy client section -->
+        <section>
+            <h2 class="text-6xl text-center">
+                Happy <span class="text-[#E76F51]">Clients Says</span>
+            </h2>
+            <!-- happy client card section -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mx-5 my-7">
+                <!-- first card -->
+                    <div class="card card-compact bg-base-100 shadow-xl p-10  text-center">
+                        <figure><img src="/images/others/user-1.png" alt=""  /></figure>
+                        <div class="card-body">                          
+                          <p>Slate helps you see how 
+                            many more days you need 
+                            to work to reach your financial 
+                            goal for the month and year.</p>
+                            <div class="rating justify-center">
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500"  />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" checked />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                              </div>
+                              <h4 class="text-center text-[#23A6F0] text-semibold">Regina Miles</h4>
+                              <p class="text-center">Banker</p>
+                          
+                          </div>
+                        
+                      </div>
+                <!-- second card -->
+                    <div class="card card-compact bg-base-100 shadow-xl p-10">
+                        <figure><img src="/images/others/user-2.png" alt=""  /></figure>
+                        <div class="card-body">                          
+                          <p>Slate helps you see how 
+                            many more days you need 
+                            to work to reach your financial 
+                            goal for the month and year.</p>
+                            <div class="rating justify-center">
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500"  />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" checked />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                              </div>
+                              <h4 class="text-center text-[#23A6F0] text-semibold">Regina Miles</h4>
+                              <p class="text-center">Banker</p>
+                          
+                          </div>
+                        
+                      </div>
+                <!-- third card -->
+                    <div class="card card-compact bg-base-100 shadow-xl p-10">
+                        <figure><img src="/images/others/user-3.png" alt=""  /></figure>
+                        <div class="card-body text-center">                          
+                          <p>Slate helps you see how 
+                            many more days you need 
+                            to work to reach your financial 
+                            goal for the month and year.</p>
+                            <div class="rating justify-center">
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500"  />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" checked />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                              </div>
+                              <h4 class="text-center text-[#23A6F0] text-semibold">Regina Miles</h4>
+                              <p class="text-center">Banker</p>
+                          
+                          </div>
+                        
+                      </div>
+                </div>
+               
+            </div>
         </section>
     </main>
     <footer>
